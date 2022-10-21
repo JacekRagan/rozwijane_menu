@@ -1,0 +1,20 @@
+html{
+    margin:0;
+    padding:0;
+    border:0;
+}
+#menu{
+    opacity: 0;
+    border:solid red 1px;
+    position: absolute;
+    width:400px;
+    height:500px;
+}
+@keyframes zawijanie{
+    from{
+        transform: translateX(-400px);
+    }
+    to{
+        transform: translateX(0px);
+    }
+}
